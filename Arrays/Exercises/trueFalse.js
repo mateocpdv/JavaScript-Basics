@@ -1,0 +1,11 @@
+// Crea un array booleano con dos valores 'verdadero' y 'falso'. Este array te sirve para traduicr los valores true y false. Usalo para que el script muestre un alert con el nombre vedadero si un usuario teclea un valor entre 0 y 9 y falso en el caso contrario.
+
+const res = ['verdadero', 'falso'];
+
+function traduction(entry) {
+  if (entry > 9) {
+    return res[1];
+  } else return res[0];
+}
+
+console.log(traduction(9));
