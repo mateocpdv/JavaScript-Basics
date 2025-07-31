@@ -17,3 +17,4 @@ const items = numbers
   .map((obj) => obj.value);
 
 console.log(items);
+// [ 3, 5 ]

@@ -3,15 +3,19 @@ const numbers = [1, 2, 3, 1, 4];
 // si encuentra el numero que se le pasa por parámetro va a devolver el indice donde se encuentra
 // por lo contrario  va a devolver un -1
 console.log(numbers.indexOf(1));
+// 0
 
 // Devuelve el numero del ultimo index de donde se encuentra el número
 console.log(numbers.lastIndexOf(1));
+// 3
 
 // Para demostrar si el numero existe en el array, si devuelve un true quiere decir que si lo encontro
 console.log(numbers.indexOf(1) !== -1);
+// true
 
 // Una mejor manera de hacer ↑ es
 console.log(numbers.includes(1));
+// true
 
 // si intento buscar un objeto dentro de un array de objetos me va a dar false porque el espacio en memoria no es el mismo
 
@@ -26,5 +30,6 @@ const course = courses.find(function (course) {
 });
 
 console.log(course);
+// { id: 1, name: 'a' }
 
 // console.log(course);

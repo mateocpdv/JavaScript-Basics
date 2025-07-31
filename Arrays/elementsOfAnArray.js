@@ -8,6 +8,7 @@ const allPositive = numbers.every(function (value) {
 });
 
 console.log(allPositive);
+// true
 
 // por otro lado la función some() va a hacer lo mismo que la función de every() pero en este caso al primer elemento que encuentre que cumpla con la condición, va a dar true
 
@@ -16,3 +17,4 @@ const atLeastOnePositive = numbers.some(function (value) {
 });
 
 console.log(atLeastOnePositive);
+// true

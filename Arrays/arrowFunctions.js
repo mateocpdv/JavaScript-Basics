@@ -8,3 +8,4 @@ const courses = [
 const course = courses.find((course) => course.name === 'a');
 
 console.log(course);
+// { id: 1, name: 'a' }

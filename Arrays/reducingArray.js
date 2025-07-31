@@ -13,3 +13,4 @@ const sum = numbers.reduce((accumulator, currentValue) => {
   return accumulator + currentValue;
 }); // si este 0 no está, el accumulator toma el valor del primer numero del array
 console.log(sum);
+// 5
